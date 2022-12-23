@@ -57,6 +57,7 @@ Expected output: 24567
 
 
 Bài 12: Viết chương trình in mẫu bắt đầu sau bằng vòng lặp for:
+
 * 
 * * 
 * * * 
