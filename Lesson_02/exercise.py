@@ -218,3 +218,8 @@ for i in range(rows, 0, -1):
     for j in range(0, i - 1):
         print("*", end=' ')
     print("\r")
+
+
+str_test = "This is a \" in a string"
+if str_test == 'This is a " in a string':
+    abcc
