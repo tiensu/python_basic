@@ -44,6 +44,6 @@ a
 data
 scientist
 
-Bài 10: Xóa các ký hiệu/dấu chấm câu đặc biệt khỏi chuỗi
-Ví du: str1 = "/*Jon is @developer & musician"
---> "Jon is developer musician"
+Bài 10: Xóa tất cả các ký tự khỏi một chuỗi ngoại trừ số nguyên
+Ví dụ: 
+str1 = 'I am 25 years and 10 months old' --> 2510
