@@ -22,7 +22,14 @@ list2 = ["y", "me", "s", "lly"]
 list1 = ["M", "na", "i", "Ke"] 
 list2 = ["y", "me", "s", "lly"]
 list3 = [i + j for i, j in zip(list1, list2)]
+# list3 = []
+# for i, j in zip(list1, list2):
+#     k = i + j
+#     list3.append(k)
 print(list3)
+
+# for ind, val enumerate(list1):
+
 
 '''Bài 3: Cho một danh sách các số. Tạo danh sách mới bằng cách bình phương mỗi phần tử của danh sách đó.
 Ví dụ: 
@@ -55,8 +62,9 @@ list2 = [100, 200, 300, 400]
 '''
 list1 = [10, 20, 30, 40]
 list2 = [100, 200, 300, 400]
+list2.reverse()
 
-for x, y in zip(list1, list2.reverse()):
+for x, y in zip(list1, list2):
     print(x, y)
 
 '''Bài 5: Xóa các chuỗi rỗng khỏi danh sách các chuỗi
@@ -69,6 +77,16 @@ list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 # remove None from list1 and convert result into list
 res = list(filter(None, list1))
 print(res)
+
+# Tung
+# list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+# print([s for s in list1 if s != ''])
+# new_list = []
+# for s in list1:
+#     if s != '':
+#         new_list.append(s)
+# print(new_list)
+
 
 '''Bài 6: Viết chương trình thêm sô 7000 vào sau số 6000 trong Danh sách sau:
 list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
@@ -102,6 +120,17 @@ index = list1.index(20)
 # update item present at location
 list1[index] = 200
 print(list1)
+
+# Other
+# idx_20 = 0
+# i = 0
+# for val in list1:
+#     if val == 20:
+#         idx_20 = i
+#         break
+#     i += 1
+# list1[idx_20] = 200
+
 
 '''Bài 9: Viết chương trình loại bỏ tất cả các lần xuất hiện của số 20 trong list:
 Ví dụ:
