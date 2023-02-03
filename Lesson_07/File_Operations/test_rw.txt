@@ -1,0 +1,9 @@
+print('Error writing file')
+# Handline exception
+# Method 1
+print('Error writing file')
+# Handline exception
+# Method 1
+print('Error writing file')
+# Handline exception
+# Method 1
