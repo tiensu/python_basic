@@ -1,0 +1,4 @@
+Number of score A: 1
+Number of score B: 1
+Number of score C: 0
+Number of score D: 0

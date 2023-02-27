@@ -1,23 +1,15 @@
 # 1. Write a program to read file sample.json. Display all distance and name of locations.
 import json
-from math import dist
+import re
 
 def load_json(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         obj = json.load(f)
-        for loc in obj['results']:
-            distance = loc['distance']
-            name = loc['name']
-            long = loc['geocodes']['main']['longitude']
-            lat = loc['geocodes']['main']['latitude']
-            # print(f'Name: {name}')
-            print('-------------------')
-    # return obj
-    
+        # print(obj)
+    return obj
 
 load_json('sample.json')
-abc = 10
-print(f'{abc} first lines:')
+
 
 # 2. Write a program to:
 # - Define a python object (dictionary) containing fields: date, location, gps (lat, lon), weather, population.
